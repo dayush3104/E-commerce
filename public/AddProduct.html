@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" type="text/css" href="styles/common.css">
+    <link rel="stylesheet" href="/styles/AddProduct.css">
+</head>
+<body>
+    <nav>
+        <div class="brand-name">SHOPAHOLIC</div>
+        <div class="navbar">
+        <ul class="nav-menu">
+            <a href="home" style="display: none;"><li>HOME</li></a>
+            <a href="products"><li>PRODUCTS</li></a>
+            <a href="orders"><li>ORDERS</li></a>
+            <a href="/user"><li>LOGOUT</li></a>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="form-container">
+        <h2>Details</h2>
+        <form id="AddProduct">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description" required>
+            </div>
+            <div class="form-group">
+                <label for="imageURL">ImageURL</label>
+                <input type="text" id="imageURL" name="imageURL" required>
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="text" id="price" name="price" required>
+            </div>
+            <div class="form-group">
+                <label for="tags">Tags (',' separated)</label>
+                <input type="text" id="tags" name="tags">
+            </div>
+            <button type="submit" class="submit-button">ADD PRODUCT</button>
+        </form>
+        </div>
+    </div>
+
+<script src="/scripts/utils.js"></script>
+<script src="/scripts/AddProduct.js"></script>
+</body>
+</html>

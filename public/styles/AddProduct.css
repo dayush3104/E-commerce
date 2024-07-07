@@ -1,0 +1,70 @@
+body{
+    overflow: hidden;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 60px);
+	background-image: url('/img/bg.jpg');
+	background-size: cover;
+}
+
+.form-container {
+	width: 15%;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px grey;
+  background-color: white;
+}
+
+.form-container h2 {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#AddProduct{
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.form-group input {
+	padding: 10px;
+	width: 90%;
+	margin: auto;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.submit-button {
+	font-size: large;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid #4CAF50;
+	background-color: #4CAF50;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.submit-button:hover {
+	background-color: white;
+	color: #4CAF50;
+	font-weight: bold;
+	box-shadow: 0 0 5px #4CAF50;
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    cursor: default;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    background-color: white;
+    box-shadow: 0 1px 5px black;
+    padding: 5px;
+}
+
+nav ul li{
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: inline-block;
+    list-style: none;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.brand-name{
+    color: black;
+    font-weight: bolder;
+    font-size: 32px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar{
+    margin-right: 10px;
+}
+
+nav ul li:hover{
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0px 1px 3px grey;
+    border-bottom: 1px solid black;
+    transition: 0.1s ease;
+}
+
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
